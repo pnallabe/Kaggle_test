@@ -1,0 +1,111 @@
+
+    ╔═══════════════════════════════════════════════════╗
+    ║  AI Data Analyst API (v2.0.0-auth) Starting...   ║
+    ╠═══════════════════════════════════════════════════╣
+    ║  Features:                                        ║
+    ║  ✓ User Authentication (JWT)                     ║
+    ║  ✓ User-Scoped Projects                          ║
+    ║  ✓ User-Scoped Datasets                          ║
+    ║  ✓ Storage Limits (100MB per user)       ║
+    ║                                                   ║
+    ║  Endpoint: http://localhost:8080                 ║
+    ║  Docs: http://localhost:8080/docs                ║
+    ╚═══════════════════════════════════════════════════╝
+    
+ * Serving Flask app 'main'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.206.4.195:8080
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 113-506-602
+127.0.0.1 - - [30/Oct/2025 12:07:35] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:08:20] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:08:24] "POST /api/v1/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:53] "OPTIONS /api/v1/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:54] "POST /api/v1/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:54] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:54] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:54] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:54] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:54] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:54] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:54] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:09:54] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:10:04] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:10:04] "[35m[1mPOST /api/v1/projects HTTP/1.1[0m" 201 -
+127.0.0.1 - - [30/Oct/2025 12:10:04] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:11:12] "POST /api/v1/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:11:18] "[35m[1mPOST /api/v1/projects HTTP/1.1[0m" 201 -
+127.0.0.1 - - [30/Oct/2025 12:12:01] "[35m[1mPOST /api/v1/projects HTTP/1.1[0m" 201 -
+127.0.0.1 - - [30/Oct/2025 12:12:07] "[35m[1mPOST /api/v1/projects HTTP/1.1[0m" 201 -
+127.0.0.1 - - [30/Oct/2025 12:12:15] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:15] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:15] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:15] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:15] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:15] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:15] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:15] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:20] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:20] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:20] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:20] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:20] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:20] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:20] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:20] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:27] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:27] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:27] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:27] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:27] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:27] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:27] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:27] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:53] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:53] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:53] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:12:53] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:14:17] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:14:17] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:14:17] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:14:17] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:14:17] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:26:14] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:26:14] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:26:14] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:26:14] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:26:14] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:26:14] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:26:14] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 12:26:14] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:09:39] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:09:45] "GET /api/v1/projects/proj_20251030_121004 HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:36] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:36] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:36] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:36] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:36] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:36] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:36] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:36] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:46] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:46] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:46] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:46] "OPTIONS /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:46] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:46] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:46] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:46] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:48] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:48] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:49] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:49] "GET /api/v1/projects HTTP/1.1" 200 -
+127.0.0.1 - - [30/Oct/2025 15:11:53] "[33mOPTIONS /api/v1/projects/proj_20251030_121004/datasets HTTP/1.1[0m" 404 -
+127.0.0.1 - - [30/Oct/2025 15:11:53] "[33mOPTIONS /api/v1/projects/proj_20251030_121004/datasets HTTP/1.1[0m" 404 -
+127.0.0.1 - - [30/Oct/2025 15:12:09] "[33mOPTIONS /api/v1/projects/proj_20251030_121004/datasets HTTP/1.1[0m" 404 -
+127.0.0.1 - - [30/Oct/2025 15:12:09] "[33mOPTIONS /api/v1/projects/proj_20251030_121004/datasets HTTP/1.1[0m" 404 -

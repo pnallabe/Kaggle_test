@@ -1,0 +1,56 @@
+{
+  "user_20251030111233_660": [
+    {
+      "id": "proj_20251030_111248",
+      "user_id": "user_20251030111233_660",
+      "name": "My First Project",
+      "description": "User-scoped project",
+      "created_at": "2025-10-30T11:12:48.153096",
+      "status": "active",
+      "data_sources": [],
+      "last_updated": "2025-10-30T11:12:48.153098"
+    }
+  ],
+  "demo_user_20251030": [
+    {
+      "id": "proj_20251030_121004",
+      "user_id": "demo_user_20251030",
+      "name": "test",
+      "description": "",
+      "created_at": "2025-10-30T12:10:04.682465",
+      "status": "active",
+      "data_sources": [],
+      "last_updated": "2025-10-30T12:10:04.682471"
+    },
+    {
+      "id": "proj_20251030_121118",
+      "user_id": "demo_user_20251030",
+      "name": "Test Project",
+      "description": "Testing project creation",
+      "created_at": "2025-10-30T12:11:18.575361",
+      "status": "active",
+      "data_sources": [],
+      "last_updated": "2025-10-30T12:11:18.575369"
+    },
+    {
+      "id": "proj_20251030_121201",
+      "user_id": "demo_user_20251030",
+      "name": "Test Project 2",
+      "description": "Testing",
+      "created_at": "2025-10-30T12:12:01.236222",
+      "status": "active",
+      "data_sources": [],
+      "last_updated": "2025-10-30T12:12:01.236229"
+    },
+    {
+      "id": "proj_20251030_121207",
+      "user_id": "demo_user_20251030",
+      "name": "Test3",
+      "description": "Test",
+      "created_at": "2025-10-30T12:12:07.390341",
+      "status": "active",
+      "data_sources": [],
+      "last_updated": "2025-10-30T12:12:07.390347"
+    }
+  ]
+}

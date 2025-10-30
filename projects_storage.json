@@ -1,0 +1,48 @@
+[
+  {
+    "id": "ecommerce_analysis",
+    "name": "E-commerce Customer Analysis",
+    "description": "Deep dive into customer behavior patterns",
+    "created_at": "2025-10-30T10:00:00Z",
+    "status": "active",
+    "data_sources": [
+      "BigQuery",
+      "Google Analytics"
+    ],
+    "last_updated": "2025-10-30T14:30:00Z"
+  },
+  {
+    "id": "sales_dashboard",
+    "name": "Real-time Sales Dashboard",
+    "description": "Live sales metrics and KPI tracking",
+    "created_at": "2025-10-30T09:30:00Z",
+    "status": "active",
+    "data_sources": [
+      "PostgreSQL",
+      "Salesforce"
+    ],
+    "last_updated": "2025-10-30T15:45:00Z"
+  },
+  {
+    "id": "marketing_roi",
+    "name": "Marketing ROI Analysis",
+    "description": "Campaign performance and attribution modeling",
+    "created_at": "2025-10-29T16:20:00Z",
+    "status": "active",
+    "data_sources": [
+      "Google Ads",
+      "Facebook Ads",
+      "BigQuery"
+    ],
+    "last_updated": "2025-10-30T12:15:00Z"
+  },
+  {
+    "id": "proj_20251030_104824",
+    "name": "New Dataset Project",
+    "description": "Analyzing new data source",
+    "created_at": "2025-10-30T10:48:24.300226",
+    "status": "active",
+    "data_sources": [],
+    "last_updated": "2025-10-30T10:48:24.300228"
+  }
+]
