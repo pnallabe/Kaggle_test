@@ -1,0 +1,80 @@
+# .gitignore for AI Data Analyst project
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.local.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+!terraform.tfvars.example
+tfplan.out
+tfplan.destroy
+
+# GCP
+*.json
+*-key.json
+!cloudbuild.yaml
+google-credentials.json
+
+# Node (if frontend included)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Docker
+*.dockerfile
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

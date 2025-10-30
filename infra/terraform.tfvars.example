@@ -1,0 +1,8 @@
+# Example terraform.tfvars - copy and customize
+# To use: terraform apply -var-file="environments/dev.tfvars"
+
+project_id = "YOUR_GCP_PROJECT_ID"
+region     = "us-central1"
+app_name   = "ai-data-analyst"
+environment = "dev"
+db_machine_type = "db-f1-micro"
