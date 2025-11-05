@@ -4,6 +4,7 @@ import { useAppDispatch } from '@hooks/useAppDispatch';
 import { restoreAuth } from '@store/slices/authSlice';
 import Layout from '@components/layout/Layout';
 import { PrivateRoute } from '@components/PrivateRoute';
+import Landing from '@components/pages/Landing';
 import Dashboard from '@components/pages/Dashboard';
 import QueryConsole from '@components/pages/QueryConsole';
 import DatasetManager from '@components/pages/DatasetManager';
@@ -25,12 +26,13 @@ function App() {
     <BrowserRouter>
       <Routes>
         {/* Public Routes */}
+        <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 
         {/* Protected Routes */}
         <Route
-          path="/"
+          path="/dashboard"
           element={
             <PrivateRoute>
               <Layout />

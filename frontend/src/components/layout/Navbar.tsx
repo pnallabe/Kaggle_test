@@ -1,6 +1,7 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 import { Bell, User, Moon, Sun } from 'lucide-react';
 import Button from '@components/ui/Button';
+import Logo from '@components/ui/Logo';
 import { cn } from '@utils/cn';
 
 const Navbar: FC = () => {
@@ -14,9 +15,12 @@ const Navbar: FC = () => {
   return (
     <nav className="border-b border-border bg-card px-6 py-4">
       <div className="flex items-center justify-between">
-        <div>
-          <h2 className="text-lg font-semibold text-foreground">AI Data Analyst</h2>
-          <p className="text-xs text-muted-foreground">Enterprise Analytics Platform</p>
+        <div className="flex items-center space-x-3">
+          <Logo size="sm" variant="gradient" />
+          <div>
+            <h2 className="text-xl font-bold gradient-text">Suchana.ai</h2>
+            <p className="text-xs text-muted-foreground">AI-Powered Analytics</p>
+          </div>
         </div>
 
         <div className="flex items-center gap-4">
@@ -47,6 +51,3 @@ const Navbar: FC = () => {
 };
 
 export default Navbar;
-
-// Fix: Add React import
-import React from 'react';

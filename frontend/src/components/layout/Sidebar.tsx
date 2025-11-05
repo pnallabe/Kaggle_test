@@ -2,7 +2,8 @@ import { FC } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { BarChart3, Database, Settings, LogOut } from 'lucide-react';
 import { cn } from '@utils/cn';
-import { Project } from '@types/index';
+import Logo from '@components/ui/Logo';
+import type { Project } from '../../types';
 
 interface SidebarProps {
   projects: Project[];
@@ -21,9 +22,12 @@ const Sidebar: FC<SidebarProps> = ({ projects }) => {
 
   return (
     <aside className="w-64 border-r border-border bg-card p-4">
-      <div className="mb-8">
-        <h1 className="text-xl font-bold text-foreground">AI Data Analyst</h1>
-        <p className="text-xs text-muted-foreground">Enterprise Analytics Platform</p>
+      <div className="mb-8 flex items-center space-x-3">
+        <Logo size="sm" variant="gradient" />
+        <div>
+          <h1 className="text-xl font-bold gradient-text">Suchana.ai</h1>
+          <p className="text-xs text-muted-foreground">AI-Powered Analytics</p>
+        </div>
       </div>
 
       {/* Navigation */}
