@@ -21,5 +21,51 @@
       "used_mb": 0,
       "max_mb": 100
     }
+  },
+  "test@example.com": {
+    "user_id": "user_20251105001642_4930",
+    "email": "test@example.com",
+    "name": "Test User",
+    "password_hash": "$2b$12$vsVD3XKNc0kJgeXjsS2VIeDXew5hck8EPf0aXaZvgv4X1l3SN8Oyq",
+    "created_at": "2025-11-05T00:16:43.152625",
+    "updated_at": "2025-11-05T00:16:43.152640",
+    "profile": {
+      "avatar_url": null,
+      "bio": "",
+      "organization": "",
+      "phone": ""
+    },
+    "settings": {
+      "dark_mode": true,
+      "notifications_enabled": true,
+      "notifications_email": true
+    },
+    "storage": {
+      "used_mb": 0,
+      "max_mb": 100
+    }
+  },
+  "integration@test.com": {
+    "user_id": "user_20251105001805_7554",
+    "email": "integration@test.com",
+    "name": "Integration Test User",
+    "password_hash": "$2b$12$RwAe3Fr2GXOpS8Cz9vIsk.CFOqXLX8DM/1h6RmPiWoqsNhgkezAtO",
+    "created_at": "2025-11-05T00:18:05.950318",
+    "updated_at": "2025-11-05T00:18:05.950344",
+    "profile": {
+      "avatar_url": null,
+      "bio": "",
+      "organization": "",
+      "phone": ""
+    },
+    "settings": {
+      "dark_mode": true,
+      "notifications_enabled": true,
+      "notifications_email": true
+    },
+    "storage": {
+      "used_mb": 0,
+      "max_mb": 100
+    }
   }
 }

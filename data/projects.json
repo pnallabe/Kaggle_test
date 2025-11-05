@@ -52,5 +52,18 @@
       "data_sources": [],
       "last_updated": "2025-10-30T12:12:07.390347"
     }
+  ],
+  "user_20251105001642_4930": [],
+  "user_20251105001805_7554": [
+    {
+      "id": "proj_20251105_001806",
+      "user_id": "user_20251105001805_7554",
+      "name": "Integration Test Project",
+      "description": "Created via integration test",
+      "created_at": "2025-11-05T00:18:06.051861",
+      "status": "active",
+      "data_sources": [],
+      "last_updated": "2025-11-05T00:18:06.051864"
+    }
   ]
 }
